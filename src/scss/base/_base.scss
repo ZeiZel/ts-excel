@@ -31,6 +31,11 @@ body {
 .excel {
 	position: relative;
 
+	height: 100%;
+	max-width: 100%;
+
+	color: #888;
+
 	&__header {
 	}
 	&__toolbar {
