@@ -1,0 +1,19 @@
+.toolbar {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: var(--header-height);
+
+	padding: 7px 10px;
+	height: var(--toolbar-height);
+
+	border-top: 1px solid var(--gray-light);
+	border-bottom: 1px solid var(--gray-light);
+
+	&__button {
+		@include button(green);
+	}
+}

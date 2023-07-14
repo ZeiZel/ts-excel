@@ -9,8 +9,8 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["javascript", "typescript", "excel"],
+  "author": "Lvov Valery",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.9",
@@ -32,5 +32,8 @@
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
