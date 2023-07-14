@@ -1,9 +1,19 @@
-$red: green;
+// styles module
+@import 'normalize.css';
 
-* {
-	box-sizing: border-box;
-}
+// font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-body {
-	background: $red;
-}
+// base
+@import 'base/reset';
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/base';
+
+// blocks
+@import 'blocks/header';
+@import 'blocks/formula';
+@import 'blocks/table';
+@import 'blocks/toolbar';
+@import 'blocks/row';
+@import 'blocks/dashboard';

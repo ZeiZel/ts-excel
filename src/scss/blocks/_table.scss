@@ -1,0 +1,10 @@
+.table {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: calc(var(--toolbar-height) + var(--header-height) + var(--formula-height));
+
+	padding-bottom: 2px;
+
+	overflow-x: auto;
+}

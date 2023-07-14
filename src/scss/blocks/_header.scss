@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	height: var(--header-height);
+
+	padding: 10px;
+
+	&__input {
+		padding: 2px 7px;
+
+		font-size: 18px;
+		line-height: 22px;
+
+		border: 1px solid var(--gray-light);
+		border-radius: 3px;
+
+		&:focus {
+			border: 1px solid var(--focus);
+			outline-color: var(--focus);
+		}
+	}
+
+	&__button {
+		@include button(red);
+	}
+}
